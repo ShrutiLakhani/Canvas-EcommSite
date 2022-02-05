@@ -1,0 +1,106 @@
+body
+{
+    background-color: aliceblue;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100vh;
+}
+.navbar{
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+.navbar.navbar:second-child
+{
+    justify-self: center;
+}
+.action-buttons
+{
+    margin-left: auto;
+    display: flex;
+    gap: 1.2rem;
+}
+.input-container
+{
+    margin-left: 20rem;
+    padding: .6rem 5rem;
+}
+/* .login-form,
+.login-form *
+{
+    box-sizing: border-box;
+    font-family: sans-serif ;
+    margin-top: 20rem;
+} */
+
+.login-container
+{
+    background-color: lightblue;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin-left: 28rem;
+    border-radius: 5px;
+    align-items: center;
+}
+.login-form
+{
+    /* max-width: 400px; */
+    
+    margin: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-input-container
+{
+    padding: .7rem 5rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    display: block;
+}
+.btn-primary
+{
+    display: block;
+    padding: .6rem 8rem;
+    border: 1px solid black;
+}
+.login-container a{
+    text-decoration: none;
+}
+.btn-forgot
+{
+    display: inline;
+}
+span{
+    white-space: nowrap;
+}
+/* .form-bottom-section
+{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 2.5rem;
+} */
+.form-bottom-section a
+{
+    padding-left: 80px;
+}
+.primary-button-solid {
+    background-color: blue;
+    /* border: 1.5px solid black; */
+    border-radius: 5px;
+    color: white;
+    padding: 0.7rem 9rem;
+    margin-top: 1rem;
+}
+.btn-sign-up
+{
+    margin-top: 1rem;
+}

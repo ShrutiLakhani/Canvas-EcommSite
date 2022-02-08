@@ -81,12 +81,10 @@ body
   .dropdown:hover .dropdown-content {
     display: block;
   }
-
   .page-wrapper
   {
       height: max-content;
       margin: 0 4rem;
- */
   }
   *
   {

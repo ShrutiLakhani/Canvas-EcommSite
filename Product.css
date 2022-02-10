@@ -123,9 +123,9 @@ body {
     letter-spacing: 1px;
 }
 
-.breadcrumb-content:scroll {
-    /* opacity: 0; */
-    visibility: hidden;
+.breadcrumb-content a{
+  font-size: 1rem ;
+  text-decoration: none;
 }
 /* Product Page - Sidebar */
 .product-content-container

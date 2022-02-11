@@ -6,6 +6,9 @@ body {
 .fa {
   font-family: "Font Awesome 5 free";
 }
+.App{
+  height: 100hv;
+}
 .navbar {
   display: flex;
   align-items: center;
@@ -126,9 +129,7 @@ body {
     margin-top: 1rem;
 }
 .login-form
-{
-    /* max-width: 400px; */
-    
+{  
     margin: 1rem;
     overflow: hidden;
     display: flex;
@@ -160,20 +161,12 @@ body {
 span{
     white-space: nowrap;
 }
-/* .form-bottom-section
-{
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 2.5rem;
-} */
 .form-bottom-section a
 {
     padding-left: 80px;
 }
 .primary-button-solid {
     background-color: #1e5cda;
-    /* border: 1.5px solid black; */
     border-radius: 5px;
     color: white;
     padding: 0.7rem 9rem;

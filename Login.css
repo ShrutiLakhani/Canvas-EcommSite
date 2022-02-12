@@ -86,13 +86,14 @@ justify-content: center;
   width: 27rem;
   display: flex;
   justify-content: center;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
   border-radius: 5px;
   align-items: center;
 }
 .login-form
 {
   margin: 1rem;
+  margin-left:3rem;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -124,11 +125,13 @@ justify-content: center;
 {
   color: black;
   padding-left: 2rem;
+  padding-right: -2rem;
 }
-.loginform-bottom-section > input
+.loginform-bottom-section
 {
   color: black;
-  margin-left: -2rem;
+  margin-left: -7rem;
+  margin-right: 2rem;
 }
 .button-link
 {

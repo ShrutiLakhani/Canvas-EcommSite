@@ -101,17 +101,15 @@
 }
 .form-input-container
 {
-    margin-right: 2rem;
     padding: .7rem 5rem;
-    margin-bottom: 1rem;
     border-radius: 5px;
     display: block;
+    margin: 0rem 2rem 1rem 0rem;
 }
 .button-login-form
 {
     display: block;
     padding: .6rem 5.5rem;
-    border: 1px solid black;
     white-space: nowrap;
     margin-right: 2rem;
     background-color: var(--primary-blue-color);

@@ -5,79 +5,65 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://canvas-component-lib.netlify.app/Component.css">
   <link rel="stylesheet" href="Login.css">
+  <link rel="stylesheet" href="common.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
   <script src="https://use.fontawesome.com/fcb99f5e0a.js"></script>
-  <title>Ecomm!Login</title>
+  <title>Ecomm|Login</title>
 </head>
 
 <body>
-  <div id="root">
-    <div class="App">
-      <header class="header-outer">
-        <div class="header-inner">
-          <nav class="navbar">
-            <a class="logo-img" href="Login.html">
-            </a>
-            <div>
-              <input class="input-container fa" placeholder="&#xF002 Search"></input>
-            </div>
-            <div class="action-buttons">
-              <!-- <div>
-                    <button class="primary-button-solid">Login</button>
-                </div> -->
-              <div class="dropdown">
-                <i class="fas fa-user fa-1x"></i>
-                <div class="dropdown-content">
-                  <a href="#">Orders</a>
-                  <a href="#">Wishlist</a>
-                  <a href="#">Giftcards</a>
-                  <a href="#">Contact Us</a>
-                </div>
-              </div>
-              <div class="icon">
-                <span class="material-icons">favorite</span>
-              </div>
-              <div class="icon">
-                <span class="material-icons">
-                  shopping_bag
-                </span>
-              </div>
-          </nav>
-        </div>
-      </header>
-      <!-- <div class="page-wrapper">
-        <div class="breadcrumb-content">
-          <a href="#">Home</a>
-          <span>|</span>
-          <a href="#">Product</a> -->
-        
-
-        <main class="login-container">
-
-          <form class="login-form">
-            <h1>Login</h1>
-            <div>
-              <label class=input-label>Email address</label>
-              <input class="form-input-container" type="text" placeholder="xyz@gmail.com"></input>
-            </div>
-            <div>
-              <label class=input-label>Password</label>
-              <input class="form-input-container" type="text" placeholder="**********"></input>
-            </div>
-            <div class="form-bottom-section">
-              <input type="checkbox" /><span>Remember me</span>
-              <a href="#">Forgot Password?</a>
-              <!-- <a href="#">Login</a> -->
-            </div>
-            <a href="#" class="primary-button-solid">Login</a>
-            <a class="btn-sign-up" href="#">Create New Account <i class="fas fa-chevron-right"></i></a>
-          </form>
-        </main>
+  <div class="signup-wrapper">
+    <nav class="ecomm-navbar">
+      <a class="logo-img-initial" href="Login.html">
+      </a>
+      <div>
+        <input class="nav-input-container fa" placeholder="&#xF002 Search"></input>
       </div>
-    </div>
-  
+      <div class="action-buttons">
+        <div class="dropdown">
+          <i class="fas fa-user fa-1x"></i>
+          <div class="dropdown-content">
+            <a href="#">Orders</a>
+            <a href="#">Wishlist</a>
+            <a href="#">Giftcards</a>
+            <a href="#">Contact Us</a>
+          </div>
+        </div>
+        <div class="icon-ecomm">
+          <span class="material-icons">favorite</span>
+        </div>
+        <div class="icon-ecomm">
+          <span class="material-icons">
+            shopping_bag
+          </span>
+        </div>
+    </nav>
+    <main class="login-page-bottom-container">
+      <div class="login-container">
+        <form class="login-form">
+          <h1>Login</h1>
+          <div>
+            <label class=input-label>Email address</label>
+            <input class="form-input-container" type="text" placeholder="xyz@gmail.com"></input>
+          </div>
+          <div>
+            <label class=input-label>Password</label>
+            <input class="form-input-container" type="text" placeholder="**********"></input>
+          </div>
+          <div class="loginform-bottom-section">
+            <input type="checkbox" />Remember me
+            <a href="#">Forgot Password?</a>
+          </div>
+          <a href="#" class="button-login-form border-style">Login</a>
+          <a class="btn-sign-up button-link" href="#">Create New Account <i class="fas fa-chevron-right"></i></a>
+        </form>
+        </form>
+      </div>
+    </main>
+  </div>
 </body>
 
 </html>

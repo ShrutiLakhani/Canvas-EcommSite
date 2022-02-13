@@ -1,141 +1,15 @@
-body {
-    background-color: #fff;
-    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%) ;
-    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+.product-page
+{
+  display: flex;
 }
-.fa {
-    font-family: "Font Awesome 5 free";
-}
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 2rem;
-    height: 100vh;
-    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 15%);
-}
-
-.navbar {
-    border-bottom: 1px solid black;
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
-    position: sticky;
-    width: 100%;
-    z-index: 999;
-    top: 0%;
-    left: 0;
-    margin: 0;
-    height: 3rem; 
-}
-.header-outer {
-    display: flex;
-    align-items: center;
-    position: sticky;
-    top: -2px;
-    height: 3.125rem;
-    width: 100%;
-    background-color: white;
-    z-index: 999;
-  }
-  .header-inner {
-    height: 4.375rem;
-    position: sticky;
-    top: 0; 
-    width: 100%;
-  }
-.action-buttons {
-    margin-left: auto;
-    display: flex;
-    gap: 1.2rem;
-    margin-right: 1rem;
-    align-items: center;
-}
-
-.input-container {
-    margin-left: 25rem;
-    margin-right: 6rem;
-    padding: 0.3rem 5rem;
-    border-radius: 5px;
-}
-
-.logo-img {
-    background-image: url("./Images/CLogo.svg");
-    background-repeat: no-repeat;
-    mix-blend-mode: multiply;
-    width: 3rem;
-    height: 3rem;
-    background-size: 3rem;
-    background-color: transparent;
-    margin-left: 1rem;
-    margin-top: 1rem;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    right: -500%;
-    background-color: #f1f1f1;
-    min-width: 10rem;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: .75rem 1rem;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.page-wrapper {
-    height: max-content;
-    margin: 0 4rem;
-}
-
-* {
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.breadcrumb-content {
-    margin: 0 -4rem;
-    padding: 1rem 4rem;
-    background-color: whitesmoke;
-    font-weight: 400;
-    font-size: .8rem;
-    text-align: left;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-}
-
-.breadcrumb-content a{
-  font-size: 1rem ;
-  text-decoration: none;
-}
-/* Product Page - Sidebar */
 .product-content-container
 {
     display: flex;
-    justify-content: flex-start;
-    align-items: stretch;
-    align-content: stretch;
-    z-index: 10;
-    padding-top: 2rem;
+    flex: 1 1;
+}
+.product-list
+{
+  min-height: 50vh;
 }
 .product-content-left-sidebar
 {
@@ -148,7 +22,7 @@ body {
 {
     margin-top: 2rem;
     padding-bottom: 2rem;
-    border-bottom: 1px solid #e9e9ed;
+    border-bottom: 1px solid var(--divider-bg-color);
 }
 .header-container
 {
@@ -164,9 +38,12 @@ body {
     padding-top: 10px;
     padding-bottom: 1rem;
     padding-left: 5px;
-    border-bottom: 1px solid #e9e9ed;
+    border-bottom: 1px solid var(--divider-bg-color);
     position: relative;
-    border-right: 1px solid #edebef;
+    border-right: 1px solid var(--divider-bg-color);
+}
+.left-sidebar-filter-section ul{
+  margin: 0px;
 }
 .category-container
 {
@@ -177,38 +54,39 @@ body {
     font-weight: 500;
     font-size: .9rem;
     display: block;
-    color: #282c3f;
+    color: var(--subheader-title-color);
 }
 .categories-list
 {
     list-style: none;
+    margin-left:0px;
+    font-size: 14px;
 }
-.checkbox input, .checkbox label
+.categories-list li
 {
-    margin-left: 0;
-    font-size: .9rem;
-    font-weight: 400;
+  margin-left:-4rem;  
+  margin-bottom: -1rem;
 }
-.radio label
+.left-sidebar-checkbox{
+  margin: 0 16px 0 0;
+}
+.left-sidebar-label
 {
-display: flex;
-align-items: center;
-margin: 1.25rem;
-flex-direction: column;
-font-size: 0.8rem;
+  font-size: .8rem;
 }
 .radio input, .checkbox input
 {
- margin: 0 10px;
+ margin: 1px;
+ font-size: 14px;
 }
 /* Copied from Wishlist.css */
 .Wishlist-container
   {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(min-content,max-content);
     width: 100%;
-    max-width: 100rem;
+    max-width: 61.25rem;
     margin: 0 auto;
   }
 .Wishlist-container .card2-container {
@@ -293,5 +171,5 @@ font-size: 0.8rem;
     position: absolute;
     left: 80%;
     top: 1%;
-    color: gray;
+    color: var(--tertiary-color);
   }

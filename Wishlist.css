@@ -9,9 +9,9 @@
   .wishlist-page
   {
       display: flex;
-      max-width: 1200px;
-      margin: 0 auto 2rem;
-      margin-left: 2rem;
+      /* max-width: 1200px;
+      margin: 0 auto 2rem; */
+      margin-left: 4rem;
       top: 10;
       left: 0;
       right: 0;
@@ -24,7 +24,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 100%;
     max-width: 100rem;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     /* z-index: 10; */
   }
   /* Card CSS */

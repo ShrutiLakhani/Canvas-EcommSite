@@ -1,70 +1,9 @@
-.signup-wrapper{
+.login-wrapper{
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 5rem;
   height: 100vh;
   box-shadow: 0 4px 12px 0 rgb(0 0 0 / 15%);
-}
-.ecomm-navbar {
-  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
-  display: flex;
-  align-items: center;
-  border-radius: 5px;
-}
-.nav-input-container
-{
-  margin-left: 21rem;
-  padding: .7rem 10rem;
-  margin-bottom: 1rem;
-  border-radius: 5px;
-  display: block;
-}
-.action-buttons {
-  margin-left: auto;
-  display: flex;
-  gap: 1.2rem;
-  margin-right: 1rem;
-  align-items: center;
-}
-.logo-img-initial {
-  background-image: url("./Images/CLogo.svg");
-  background-repeat: no-repeat;
-  mix-blend-mode: multiply;
-  width: 3rem;
-  height: 3rem;
-  background-size: 3rem;
-  background-color: transparent;
-  overflow: hidden;
-  margin-left: 1rem;
-  margin-top: 10px;
-}
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  right: -500%;
-  background-color: var(--main-background-color);
-  min-width: 10rem;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: .75rem 1rem;
-  text-decoration: none;
-  display: block;
-}
-.dropdown-content a:hover {
-  background-color: var(--drop-hover-color);
-}
-.dropdown:hover .dropdown-content {
-  display: block;
 }
 .login-page-bottom-container
 {
@@ -80,26 +19,28 @@ justify-content: center;
   width: 27rem;
   display: flex;
   justify-content: center;
-  /* margin-left: 1rem; */
   border-radius: 5px;
   align-items: center;
 }
 .login-form
 {
   margin: 1rem;
-  margin-left:3rem;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+.login-form:nth-child(5)
+{
+  justify-self: flex-start;
+}
 .form-input-container
 {
-  padding: .7rem 5rem;
-  margin: 0rem 2rem 1rem 0rem;
-  border-radius: 5px;
-  display: block;
+    width:350px;
+    border-radius: 5px;
+    display: block;
+    margin: 0rem 2rem 1rem 0rem; 
 }
 .login-container a{
   text-decoration: none;
@@ -107,42 +48,31 @@ justify-content: center;
 .loginform-bottom-section
 {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .loginform-bottom-section:first-child
 {
-  justify-self: start;
+  justify-content:flex-start;
 }
-
-.loginform-bottom-section > a
-{
-  color: black;
-  padding-left: 2rem;
-  padding-right: -2rem;
-}
-.loginform-bottom-section
-{
-  color: black;
-  margin-left: -7rem;
-  margin-right: 2rem;
+.style-input-checkbox{
+  margin-left: -12rem;
 }
 .button-link
 {
-  color: black;
-}
-.btn-sign-up
-{
-    padding: .8rem 5rem;
-    margin: 1rem 0rem 0rem -2rem;
+  color: var(--component-black-color);
 }
 .button-login-form
 {
     display: block;
-    padding: .6rem 9rem;
+    padding: .6rem 9.5rem;
     white-space: nowrap;
     background-color: var(--primary-blue-color);
     color: var(--component-white-color);
     border-radius: 5px;
     margin: 0rem 2rem 1rem 0rem;
 } 
+.forgot-pswrd-link a{
+  margin-left: 12rem; 
+  color: var(--component-black-color);
+}

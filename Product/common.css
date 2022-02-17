@@ -11,11 +11,12 @@ a > .fa
 }
 .icon-ecomm > .material-icons
 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .material-icons
 {
     color: var(--component-black-color);
+    font-size: 2rem;
 }
 .wrapper{
     display: flex;
@@ -68,6 +69,7 @@ a > .fa
     margin-right: 6rem;
     width: 50%;
     border-radius: 5px;
+    cursor: pointer;
   }
   
   .ecomm-logo-img {

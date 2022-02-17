@@ -69,7 +69,7 @@ a > .fa
     border-radius: 5px;
   }
   
-  .logo-img {
+  .ecomm-logo-img {
     background-image: url("./Images/CLogo.svg");
     background-repeat: no-repeat;
     mix-blend-mode: multiply;
@@ -118,11 +118,6 @@ a > .fa
     margin: 0 4rem;
     z-index: 10;
   }
-  /* *
-  {
-      padding:0;
-      box-sizing: border-box;
-  } */
   .breadcrumb-content
   {
     margin: 0 -4rem;

@@ -1,6 +1,11 @@
 :root{
   --landing-divider-color: palevioletred;
 }
+*
+{
+    padding:0;
+    box-sizing: border-box;
+}
 body
 {
     background-color: var(--main-background-color);
@@ -14,7 +19,7 @@ a > .fa
 }
 .icon-ecomm > .material-icons
 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .material-icons
 {
@@ -122,11 +127,7 @@ a > .fa
     margin: 0;
     z-index: 10;
   }
-  *
-  {
-      padding:0;
-      box-sizing: border-box;
-  }
+
   .breadcrumb-content
   {
     margin: 0 -4rem;

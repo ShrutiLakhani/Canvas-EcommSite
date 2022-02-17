@@ -62,22 +62,19 @@
     margin-left:0px;
     font-size: 14px;
 }
-.categories-list li
-{
-  margin-left:-4rem;  
-  margin-bottom: -1rem;
-}
-.left-sidebar-checkbox{
-  margin: 0 16px 0 0;
-}
+
 .left-sidebar-label
 {
   font-size: .8rem;
+  cursor:pointer;
 }
 .radio input, .checkbox input
 {
- margin: 1px;
- font-size: 14px;
+ margin: 8px;
+ font-size: .8rem;
+}
+.categories-list .left-sidebar-checkbox .checkbox > input{
+  margin-right: 1px;
 }
 /* Copied from Wishlist.css */
 .Wishlist-container

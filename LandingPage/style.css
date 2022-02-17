@@ -50,3 +50,7 @@ h2 {
   top: 60%;
   left: 45%;
 }
+.Wishlist-container .card2-container {
+    padding-bottom: 0px;
+    box-shadow: none;
+}

@@ -1,32 +1,28 @@
-  .wishlist-head
-  {
+  .wishlist-head{
     display: flex;
     justify-content: space-between;
     font-size: 1.2rem;
     white-space: nowrap;
     margin-top: 1rem;
   }
-  .wishlist-page
-  {
+
+  .wishlist-page{
       display: flex;
-      /* max-width: 1200px;
-      margin: 0 auto 2rem; */
       margin-left: 4rem;
       top: 10;
       left: 0;
       right: 0;
       z-index: 10;
   } 
+
   /* For Wishlist bottom container */
-  .Wishlist-container
-  {
+  .Wishlist-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 100%;
     max-width: 100rem;
-    /* margin: 0 auto; */
-    /* z-index: 10; */
   }
+
   /* Card CSS */
   .Wishlist-container .card2-container {
     width: 15rem;
@@ -38,6 +34,7 @@
     position: relative;
     margin: 2rem;
   }
+  
   .Wishlist-container .card2-container,
   h1,
   h2,
@@ -65,6 +62,7 @@
     padding-left: 1rem;
     color: var(--secondary-card-color);
   }
+
   /* card2 details */
   .Wishlist-container .card2-container p {
     font-size: 0.8rem;
@@ -78,6 +76,7 @@
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
   }
+  
   .Wishlist-container .primary-solid-brown {
     background-color: var(--bg-card-button-color2);
     width: 1.2rem;
@@ -85,6 +84,7 @@
     border-radius: 50%;
     border: none;
   } 
+  
   .Wishlist-container .primary-solid-beige {
     border-radius: 0.3rem;
     width: 1.2rem;
@@ -93,16 +93,20 @@
     border-radius: 50%;
     border: none;
   }
+  
   .Wishlist-container .card2-bottom-section {
     padding-left: 1rem;
   }
+  
   ins {
     text-decoration: none;
   }
+  
   .container-shadow {
     box-shadow: -1px 1px 5px 9px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
   }
+  
   .Wishlist-container .card2-container .closebtn {
     font-size: 2rem;
     position: absolute;
@@ -110,6 +114,7 @@
     top:0%;
     color: var(--tertiary-color);
   }
+  
   .Wishlist-container .btn-bag-card {
     text-decoration: none;
     background-color: var(--component-white-color);
@@ -118,11 +123,11 @@
     color: var(--error-color);
     padding-left: 4rem;
   }
-  .Wishlist-container .divider-sidebar
-{
-  margin-bottom: .2rem;
-  height: .2px;
-  background-color: var(--divider-bg-color);
-  width: 15rem;
-  border: 1px solid var(--component-container-color);
-}
+  
+ .Wishlist-container .divider-sidebar{
+    margin-bottom: .2rem;
+    height: .2px;
+    background-color: var(--divider-bg-color);
+    width: 15rem;
+    border: 1px solid var(--component-container-color);
+ }

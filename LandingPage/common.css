@@ -1,3 +1,6 @@
+:root{
+  --landing-divider-color: palevioletred;
+}
 body
 {
     background-color: var(--main-background-color);
@@ -64,7 +67,7 @@ a > .fa
   }
   
   .nav-input-container {
-    margin-left: 25rem;
+    margin-left: 42rem;
     margin-right: 6rem;
     width: 50%;
     border-radius: 5px;

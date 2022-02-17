@@ -14,7 +14,7 @@
 .nav-input-container
 {
   margin-left: 21rem;
-  padding: .7rem 9rem;
+  padding: .7rem 10rem;
   margin-bottom: 1rem;
   border-radius: 5px;
   display: block;
@@ -25,12 +25,6 @@
   gap: 1.2rem;
   margin-right: 1rem;
   align-items: center;
-}
-.form-input-container {
-  margin-left: 0rem;
-  margin-right: 7rem;
-  padding: 0.3rem 5rem;
-  border-radius: 5px;
 }
 .logo-img-initial {
   background-image: url("./Images/CLogo.svg");

@@ -5,6 +5,7 @@
 
 .hero-img {
     width: 100%;
+    height:30rem;
 }
 
 .spacer-3rem {
@@ -43,6 +44,6 @@ h2 {
 .overlay-text
 {
   position: absolute;
-  top: 110%;
-  left: 42%;
+  top: 25rem;
+  left: 32rem;
 }

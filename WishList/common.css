@@ -14,7 +14,7 @@ a > .fa
     font-family: "Font Awesome 5 free";
     background-color: var(--component-black-color);
 }
-.icon-ecomm > .material-icons
+.icon-ecomm > a > .material-icons
 {
   font-size: 2rem;
 }

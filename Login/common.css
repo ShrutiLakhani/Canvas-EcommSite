@@ -1,0 +1,80 @@
+body
+{
+    background-color: #fff;
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+    font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.fa{
+    font-family: "Font Awesome 5 free";
+}
+.icon-ecomm > a > .material-icons
+{
+  font-size: 2rem;
+  color: var(--component-black-color);
+}
+:root 
+{   
+    --drop-hover-color: #ddd;    
+    --main-background-color: #fff;
+}
+.ecomm-navbar {
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+  }
+  .nav-input-container
+  {
+    margin-left: 28rem;
+    width: 500px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    display: block;
+  }
+  .action-buttons {
+    margin-left: auto;
+    display: flex;
+    gap: 1.2rem;
+    margin-right: 1rem;
+    align-items: center;
+  }
+  .logo-img-initial {
+    background-image: url("./Images/CLogo.svg");
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+    width: 3rem;
+    height: 3rem;
+    background-size: 3rem;
+    background-color: transparent;
+    overflow: hidden;
+    margin-left: 1rem;
+    margin-top: 10px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left: -160%;
+    background-color: var(--main-background-color);
+    min-width: 10rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: .75rem 1rem;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: var(--drop-hover-color);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

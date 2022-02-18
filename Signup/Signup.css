@@ -47,6 +47,7 @@
     white-space: nowrap;
     margin-right: 2rem;
     background-color: var(--primary-blue-color);
+    color: var(--component-white-color);
     border-radius: 5px;
     margin-bottom: 1rem;
 } 
@@ -59,5 +60,5 @@
 }
 .button-link
 {
-    color: black;
+    color: var(--component-black-color);
 }

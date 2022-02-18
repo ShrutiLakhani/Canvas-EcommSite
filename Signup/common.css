@@ -7,9 +7,10 @@ body
 .fa{
     font-family: "Font Awesome 5 free";
 }
-.icon-ecomm > .material-icons
+.icon-ecomm > a > .material-icons 
 {
   font-size: 2rem;
+  color: var(--component-black-color);
 }
 :root 
 {   

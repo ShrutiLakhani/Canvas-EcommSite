@@ -62,7 +62,23 @@
     margin-left:0px;
     font-size: 14px;
 }
-
+.price-input{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.price-range{
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 1rem;
+}
+.price-text{
+ margin: 1rem 2rem 1rem 0rem;
+}
+.slider{
+  margin-left:0;
+}
 .left-sidebar-label
 {
   font-size: .8rem;
@@ -170,3 +186,17 @@
     top: 1%;
     color: var(--tertiary-color);
   }
+  .primary-button-icon-cart{
+    margin-left: 2.3rem;
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 0.6rem 1.8rem;
+    border-radius: 0.3rem;
+    border: 1.5px solid black;
+    align-items: center;
+  } 
+  .primary-button-icon-cart .material-icons{
+    color: white;
+  } 
+

@@ -58,6 +58,13 @@
 {
     margin-right: 5.3rem;
 }
+.form-bottom-section .checkbox{
+    margin-left:0;    
+}
+
+.form-bottom-section input{
+    margin: .5rem;    
+}
 .button-link
 {
     color: var(--component-black-color);

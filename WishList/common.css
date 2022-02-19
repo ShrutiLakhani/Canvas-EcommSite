@@ -9,18 +9,15 @@ body
     padding:0;
     box-sizing: border-box;
 }
-a > .fa 
+.icon-ecomm a > .far , .fas
 {
     font-family: "Font Awesome 5 free";
-    background-color: var(--component-black-color);
+    color: var(--component-black-color);
 }
 .icon-ecomm > a > .material-icons
 {
   font-size: 2rem;
-}
-.material-icons
-{
-    color: var(--component-black-color);
+  color: var(--component-black-color);
 }
 .wrapper{
     display: flex;

@@ -189,14 +189,14 @@
   .primary-button-icon-cart{
     margin-left: 2.3rem;
     display: flex;
-    background-color: black;
-    color: white;
+    background-color: var(--component-black-color);
+    color: var(--component-white-color);
     padding: 0.6rem 1.8rem;
     border-radius: 0.3rem;
-    border: 1.5px solid black;
+    border: 1.5px solid var(--component-black-color);
     align-items: center;
   } 
   .primary-button-icon-cart .material-icons{
-    color: white;
+    color: var(--component-white-color);
   } 
 

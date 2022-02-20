@@ -62,7 +62,23 @@
     margin-left:0px;
     font-size: 14px;
 }
-
+.price-input{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.price-range{
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 1rem;
+}
+.price-text{
+ margin: 1rem 2rem 1rem 0rem;
+}
+.slider{
+  margin:0 1rem 0 0; 
+}
 .left-sidebar-label
 {
   font-size: .8rem;
@@ -90,7 +106,7 @@
     width: 15rem;
     text-align: left;
     background: var(--card-BG);
-    padding-bottom: 0.5rem;
+    padding-bottom: 1.2rem;
     border-radius: 0.5rem;
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
     position: relative;
@@ -170,3 +186,17 @@
     top: 1%;
     color: var(--tertiary-color);
   }
+  .primary-button-icon-cart{
+    margin-left: 2.3rem;
+    display: flex;
+    background-color: var(--component-black-color);
+    color: var(--component-white-color);
+    padding: 0.6rem 2rem;
+    border-radius: 0.3rem;
+    border: 1.5px solid var(--component-black-color);
+    align-items: center;
+  } 
+  .primary-button-icon-cart .material-icons{
+    color: var(--component-white-color);
+  } 
+

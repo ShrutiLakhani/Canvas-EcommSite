@@ -4,19 +4,15 @@ body
     box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
     font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
 }
-a > .fa 
+.icon-ecomm a > .far , .fas
 {
     font-family: "Font Awesome 5 free";
-    background-color: var(--component-black-color);
+    color: var(--component-black-color);
 }
 .icon-ecomm > a > .material-icons
 {
   font-size: 2rem;
   color: var(--component-black-color);
-}
-.material-icons
-{
-    color: var(--component-black-color);
 }
 .wrapper{
     display: flex;

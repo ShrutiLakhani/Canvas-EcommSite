@@ -6,14 +6,13 @@
     box-shadow: 0 4px 12px 0 rgb(0 0 0 / 15%);
 }
 
-.login-page-bottom-container
-{
+.login-page-bottom-container{
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.login-container
-{
+
+.login-container{
     display: flex;
     flex-direction: column; 
     background-color: var(--component-container-color);
@@ -24,8 +23,8 @@
     border-radius: 5px;
     align-items: center;
 }
-.login-form
-{
+
+.login-form{
     margin: 1rem;
     overflow: hidden;
     display: flex;
@@ -33,15 +32,15 @@
     justify-content: center;
     align-items: center;
 }
-.form-input-container
-{
+
+.form-input-container{
     width:350px;
     border-radius: 5px;
     display: block;
     margin: 0rem 2rem 1rem 0rem; 
 }
-.button-login-form
-{
+
+.button-login-form{
     display: block;
     padding: .6rem 6.5rem;
     white-space: nowrap;
@@ -51,13 +50,23 @@
     border-radius: 5px;
     margin-bottom: 1rem;
 } 
+
 .login-container a{
     text-decoration: none;
 }
-.form-bottom-section
-{
+
+.form-bottom-section{
     margin-right: 5.3rem;
 }
+
+.form-bottom-section .checkbox{
+    margin-left:0;    
+}
+
+.form-bottom-section input{
+    margin: .5rem;    
+}
+
 .button-link
 {
     color: var(--component-black-color);

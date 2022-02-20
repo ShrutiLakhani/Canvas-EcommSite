@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://canvas-component-lib.netlify.app/Component.css">
   <link rel="stylesheet" href="Login.css">
-  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="/common.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
   <script src="https://use.fontawesome.com/fcb99f5e0a.js"></script>
@@ -16,13 +16,16 @@
 
 <body>
   <div class="login-wrapper">
+    <!-- Header/Nav -->
+    <header class="header-outer">
+      <div class="header-inner">  
     <nav class="ecomm-navbar">
-      <a class="logo-img-initial" href="/index.html">
+      <a class="ecomm-logo-img" href="/index.html">
       </a>
       <div>
         <input class="nav-input-container fa" placeholder="&#xF002 Search"></input>
       </div>
-      <div class="action-buttons">
+      <div class="nav-action-buttons">
         <div class="dropdown">
           <a href="/Signup/Signup.html"><i class="fas fa-user fa-lg"></i></a>
           <div class="dropdown-content">
@@ -41,6 +44,10 @@
           </span></a>
         </div>
     </nav>
+      </div>
+    </header>
+    
+    <!-- Form Section -->
     <main class="login-page-bottom-container">
       <div class="login-container">
         <form class="login-form">

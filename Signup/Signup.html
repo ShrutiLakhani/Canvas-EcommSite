@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="Signup.css">
-  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="/common.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
   <link rel="stylesheet" href="https://canvas-component-lib.netlify.app/Component.css">
@@ -16,31 +16,37 @@
 
 <body>
   <div class="signup-wrapper">
-    <nav class="ecomm-navbar">
-      <a class="logo-img-initial" href="/index.html">
-      </a>
-      <div>
-        <input class="nav-input-container fa" placeholder="&#xF002 Search"></input>
-      </div>
-      <div class="action-buttons">
-        <div class="dropdown icon-ecomm">
-          <a href="/Login/Login.html"><i class="fas fa-user fa-lg"></i></a>
-          <div class="dropdown-content">
-            <a href="#">Orders</a>
-            <a href="#">Wishlist</a>
-            <a href="#">Giftcards</a>
-            <a href="#">Contact Us</a>
+    <!-- Header/Nav -->
+    <header class="header-outer">
+      <div class="header-inner">
+        <nav class="ecomm-navbar">
+          <a class="ecomm-logo-img" href="/index.html">
+          </a>
+          <div>
+            <input class="nav-input-container fa" placeholder="&#xF002 Search"></input>
           </div>
-        </div>
-        <div class="icon-ecomm">
-          <a href="/WishList/Wishlist.html"><i class="far fa-heart fa-lg"></i></a>
+          <div class="nav-action-buttons">
+            <div class="dropdown icon-ecomm">
+              <a href="/Login/Login.html"><i class="fas fa-user fa-lg"></i></a>
+              <div class="dropdown-content">
+                <a href="#">Orders</a>
+                <a href="#">Wishlist</a>
+                <a href="#">Giftcards</a>
+                <a href="#">Contact Us</a>
+              </div>
+            </div>
+            <div class="icon-ecomm">
+              <a href="/WishList/Wishlist.html"><i class="far fa-heart fa-lg"></i></a>
+            </div>
+            <div class="icon-ecomm">
+              <a href="/Cart/Cart.html"><span class="material-icons">
+                  shopping_bag
+                </span></a>
+            </div>
+        </nav>
       </div>
-        <div class="icon-ecomm">
-          <a href="/Cart/Cart.html"><span class="material-icons">
-            shopping_bag
-          </span></a>
-        </div>
-    </nav>
+    </header>
+    <!-- Form Section -->
     <main class="login-page-bottom-container">
       <div class="login-container">
         <form class="login-form">
@@ -57,7 +63,8 @@
             <input type="checkbox" class="checkbox" /><span>I accept all Terms and Conditions</span>
           </div>
           <a href="#" class="button-login-form border-style">Create New Account</a>
-          <a class="button-link" href="/Login/Login.html">Already have an account <i class="fas fa-chevron-right"></i></a>
+          <a class="button-link" href="/Login/Login.html">Already have an account <i
+              class="fas fa-chevron-right"></i></a>
         </form>
       </div>
     </main>

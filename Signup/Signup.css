@@ -48,7 +48,7 @@
     background-color: var(--primary-blue-color);
     color: var(--component-white-color);
     border-radius: 5px;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 } 
 
 .login-container a{
@@ -56,7 +56,7 @@
 }
 
 .form-bottom-section{
-    margin-right: 5.3rem;
+    margin-top: 1rem 5.3rem 0 0;
 }
 
 .form-bottom-section .checkbox{
@@ -64,10 +64,11 @@
 }
 
 .form-bottom-section input{
-    margin: .5rem;    
+    margin: 0 .5rem 1rem 0;    
 }
 
 .button-link
 {
     color: var(--component-black-color);
+    margin-bottom: 1rem;
 }
